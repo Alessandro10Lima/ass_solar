@@ -1,0 +1,22 @@
+.question{
+    background-image: url("../images/Sem\ nome\ \(1600\ ×\ 360\ px\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-attachment: fixed;
+    position: relative;
+
+    .container{
+        position: relative;
+
+        h1{
+            font-size: 50px;
+            width: 43vw;
+            text-align: center;
+            margin: 0 auto;
+            color: #ffee00;
+            padding: 12vh;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}

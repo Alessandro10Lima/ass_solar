@@ -1,0 +1,101 @@
+.contato{
+
+    .container{
+        h1{
+            font-size: 32px;
+            padding-top: 60px;
+            border-bottom: 2px solid #ff6a45;
+        }
+    }
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 165px;
+        width: 1024px;
+
+        &__solar{
+
+            h3{
+                padding-bottom: 8px;
+            }
+
+            &__links{
+
+                li{
+                    list-style: none;
+                    padding-bottom: 4px;
+
+                    a{
+                        color: #3a3a3a;
+                        text-decoration: none;
+
+                        &:hover{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__midias{
+
+            h3{
+                padding-bottom: 8px;
+            }
+
+            &__links{
+
+                li{
+                    list-style: none;
+                    padding-bottom: 4px;
+
+                    a{
+                        text-decoration: none;
+                        color: #3a3a3a;
+                        
+
+                        .bi-instagram{
+                            color: #ff1c63;
+                            padding-left: 6px;
+
+                            &:hover{
+                                color: #dd1453;
+                            }
+                        }
+
+                        .bi-whatsapp{
+                            width: 12px;
+                            color: green;
+                            padding-left: 6px;
+
+                            &:hover{
+                                color: #004d00;
+                            }
+                        }
+
+                        &:hover{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__endereco{
+
+            h3{
+                padding-bottom: 8px;
+            }
+
+            a{
+                text-decoration: none;
+                color: #3a3a3a;
+
+                &:hover{
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

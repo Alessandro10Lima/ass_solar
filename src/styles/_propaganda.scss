@@ -1,0 +1,19 @@
+.propaganda{
+    background-image: url("../images/22.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 38vh;
+
+    .container{
+        margin: 0 auto;
+        text-align: center;
+
+        h1{
+            padding-top: 90px;
+            font-size: 60px;
+            padding-bottom: 20px;
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+    }
+}

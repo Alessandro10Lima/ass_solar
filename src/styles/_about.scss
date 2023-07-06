@@ -1,0 +1,53 @@
+.about{
+    background-image: url("../images/Design\ sem\ nome\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+    .container{
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        h2{
+            padding-bottom: 26px;
+            font-size: 40px;
+            color: #fbff00;
+        }
+
+        p{
+            padding-bottom: 30px;
+            color: #e2f2ff;
+            width: 34vw;
+            line-height: 32px;
+            font-size: 26px;
+
+            span{
+                color: #232323;
+                background-color: #00ffe5;
+                padding: 1px 10px;
+            }
+        }
+
+        &__menu{
+
+            li{
+                list-style: none;
+                padding-bottom: 40px;
+                // font-weight: bold;
+                font-size: 24px;
+                align-items: center;
+                display: flex;
+                color: #e0ffff;
+                padding-right: 60px;
+
+                img{
+                    width: 40px;
+                    margin-right: 12px;
+                    border: 1px solid #e2f2ff;
+
+                }
+            }
+        }
+    }
+}
