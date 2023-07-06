@@ -2,13 +2,13 @@
     background-image: url("../images/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 92vh;
+    height: 98vh;
 
     .container{
         // background-color: aliceblue;
         text-align: center;
         width: 60%;
-        padding-top: 14vh;
+        padding-top: 18vh;
 
         &__title{
             font-size: 50px;
@@ -35,7 +35,7 @@
 
             span{
                 // text-decoration: underline;
-                border-bottom: 3px solid #a7a7a7;
+                border-bottom: 3px solid #272727;
             }
         }
     }
