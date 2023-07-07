@@ -99,3 +99,57 @@
         }
     }
 }
+
+@media (max-width:767px){
+    .contato{
+
+        .container{
+            width: 80%;
+
+            h1{
+                text-align: center;
+            }
+        }
+
+        .content{
+            width: 80%;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            padding: 36px 0;
+
+            &__solar{
+                padding-bottom: 12px;
+
+                &__links{
+
+                    li{
+                        padding-bottom: 6px;
+                    }
+                }
+            }
+
+            &__midias{
+                padding-bottom: 12px;
+
+                &__links{
+
+                    li{
+                        padding-bottom: 6px;
+                    }
+                }
+            }
+
+            &__endereco{
+
+                &__links{
+
+                    li{
+                        padding-bottom: 6px;
+                    }
+                }
+
+            }
+        }
+    }
+}

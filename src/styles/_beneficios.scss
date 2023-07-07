@@ -50,3 +50,60 @@
         }
     }
 }
+
+@media (max-width:767px){
+    .beneficios{
+        height: 84vh;
+    
+        .container{
+            padding-top: 60px;
+            width: 80%;
+    
+            &__list{
+                display: block;
+                padding-bottom: 10px;
+                text-align: center;
+
+                #itenss{
+                    padding-right: 0;
+                }
+
+                #itens{
+                    margin-right: 0;
+                }
+    
+                &__itens{
+                    margin-top: 0px;
+                    
+    
+                    &__item{
+    
+                        li{
+                            list-style: none;
+                            color: #fff353;
+                            font-size: 20px;
+                            padding-bottom: 16px;
+                        }
+    
+                        p{
+                            display: none;
+                        }
+                    }
+                }
+    
+            }
+    
+            h1{
+                font-size: 28px;
+                color: aliceblue;
+                padding-bottom: 30px;
+                text-align: center;
+                margin: 0 40px;
+    
+                span{
+                    border-bottom: 3px solid #fff;
+                }
+            }
+        }
+    }
+}

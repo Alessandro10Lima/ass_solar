@@ -22,3 +22,27 @@
     }
 }
 }
+
+@media (max-width:767px){
+    .footer{
+    
+        &__container{
+            width: 100%;
+            padding: 18px;
+    
+        h3{
+            color: yellow;
+            font-family: 'Bangers', cursive;
+            font-size: 28px;
+            padding-bottom: 12px;
+        }
+    
+        p{
+            color: silver;
+            font-size: 10px;
+            line-height: 20px;
+            padding-bottom: 12px;
+        }
+    }
+}
+}

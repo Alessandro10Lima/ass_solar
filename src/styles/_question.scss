@@ -20,3 +20,20 @@
         }
     }
 }
+
+@media (max-width:767px){
+    .question{
+        .container{
+    
+            h1{
+                font-size: 42px;
+                width: 80%;
+                text-align: center;
+                margin: 0 auto;
+                color: #ffee00;
+                padding-top: 12vh;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+}

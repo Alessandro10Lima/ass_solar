@@ -16,6 +16,7 @@
             margin: 0 auto;
             color: white;
             padding-bottom: 30px;
+            padding-top: 40px;
 
             span{
                 color: #30f1ff;
@@ -36,6 +37,39 @@
             span{
                 // text-decoration: underline;
                 border-bottom: 3px solid #272727;
+            }
+        }
+    }
+}
+
+@media (max-width:767px){
+    .hero{
+    
+        .container{
+            // background-color: aliceblue;
+            text-align: center;
+            width: 60%;
+            padding-top: 18vh;
+    
+            &__title{
+                font-size: 50px;
+                margin: 40px auto;
+                color: white;
+                width: 100%;
+                padding-top: 0;
+    
+                span{
+                    color: #30f1ff;
+                }
+            }
+    
+            h2{
+                display: none;
+    
+                span{
+                    // text-decoration: underline;
+                    border-bottom: 3px solid #272727;
+                }
             }
         }
     }
