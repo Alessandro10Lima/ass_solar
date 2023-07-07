@@ -53,7 +53,7 @@
 
 @media (max-width:767px){
     .beneficios{
-        height: 84vh;
+        height: 96vh;
     
         .container{
             padding-top: 60px;
@@ -61,7 +61,7 @@
     
             &__list{
                 display: block;
-                padding-bottom: 10px;
+                padding-bottom: 0px;
                 text-align: center;
 
                 #itenss{
@@ -82,7 +82,7 @@
                             list-style: none;
                             color: #fff353;
                             font-size: 20px;
-                            padding-bottom: 16px;
+                            padding-bottom: 28px;
                         }
     
                         p{
@@ -98,7 +98,7 @@
                 color: aliceblue;
                 padding-bottom: 30px;
                 text-align: center;
-                margin: 0 40px;
+                margin: 0 10vw;
     
                 span{
                     border-bottom: 3px solid #fff;
