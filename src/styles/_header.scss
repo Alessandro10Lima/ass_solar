@@ -44,7 +44,7 @@
                 &__itens{
 
                     &__link{
-                        color: #000000;
+                        color: #ffffff;
 
                         &:hover::after{
                             transform: scaleX(1);
@@ -162,6 +162,10 @@
 
             &.rolagem{
                 background-color: #ffffff;
+
+                a.menu__itens__link{
+                    color: black;
+                }
             }
     
             .menu{
