@@ -37,3 +37,22 @@
         }
     }
 }
+
+@media (min-width:768px) and (max-width:1023px) {
+    .question{
+        height: 40vh;
+
+        .container{
+            width: 90%;
+
+            h1{
+                font-size: 56px;
+                width: 90%;
+                text-align: center;
+                margin: 0 auto;
+                padding-top: 12vh;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+}

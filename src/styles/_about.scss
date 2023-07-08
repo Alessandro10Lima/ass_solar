@@ -106,3 +106,49 @@
         }
     }
 }
+
+@media (min-width:768px) and (max-width:1023px) {
+    .about{
+        height: 110vh;
+    
+        .container{
+            width: 90%;
+            display: block;
+    
+            h2{
+                padding-bottom: 26px;
+                font-size: 42px;
+                color: #fbff00;
+                text-align: center;
+            }
+    
+            p{
+                width: 90%;
+                font-size: 28px;
+                text-align: center;
+                margin: 0 auto;
+                padding-bottom: 48px;
+            }
+    
+            &__menu{
+                text-align: center;
+    
+                li{
+                    padding-bottom: 40px;
+                    font-size: 36px;
+                    align-items: center;
+                    display: block;
+                    color: #e0ffff;
+                    text-align: center;
+                    padding-right: 0;
+                    
+    
+                    img{
+                        width: 74px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

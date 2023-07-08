@@ -227,6 +227,47 @@
     }
 }
 
+@media (min-width:768px) and (max-width:1023px) {
+    .header{
+        width: 100%;
+        height: 9vh;
+        // background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    
+        &__navbar{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3vh;
+            align-items: center;
+    
+            &__nome{
+                justify-content: space-between;
+    
+                a{
+                    text-decoration: none;
+                    
+                    h3{
+                        color: #fdc900;
+                        padding-left: 50px;
+                        font-size: 28px;
+                        font-family: 'Bangers', cursive;
+                    }
+                }
+                span{
+                    display: none;
+                }
+            }
+        }
+        .menu{
+            margin-right: 10%;
+        }
+    }
+}
+
 .mobile__menu.active .mobile__menu__line1{
     transform: rotate(-45deg) translate(-2px, 8px);
 }

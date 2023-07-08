@@ -74,3 +74,33 @@
         }
     }
 }
+
+@media (min-width:768px) and (max-width:1023px) {
+    .hero{
+        height: 70vh;
+        
+        .container{
+            // background-color: aliceblue;
+            text-align: center;
+            width: 60%;
+            padding-top: 14vh;
+    
+            &__title{
+                font-size: 60px;
+                margin: 40px auto;
+                color: white;
+                width: 100%;
+                padding-top: 0;
+    
+                span{
+                    color: #30f1ff;
+                }
+            }
+    
+            h2{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
