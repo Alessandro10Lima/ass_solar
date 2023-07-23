@@ -8,6 +8,7 @@
         padding-top: 120px;
         display: flex;
         justify-content: space-between;
+        padding-bottom: 40px;
 
         h2{
             padding-bottom: 26px;
@@ -50,11 +51,46 @@
             }
         }
     }
+
+    .contact{
+        display: flex;
+        max-width: 1024px;
+        margin-left: 150px;
+        align-items: center;
+        padding: 10px;
+        background-color: #002573;
+        width: 630px;
+        border-radius: 3px;
+
+        p{
+            color: #e2f2ff;
+            padding-right: 30px;
+            line-height: 32px;
+            font-size: 22px;
+            padding-left: 16px;
+        }
+
+        a{
+            padding: 8px;
+            font-size: 14px;
+            text-decoration: none;
+            background-color: #fdc900;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            &:hover{
+                background-color: #ffda46;
+            }
+        }
+    }
 }
 
 @media (max-width:767px){
     .about{
-        height: 110vh;
+        height: 154vh;
     
         .container{
             display: block;
@@ -63,7 +99,7 @@
     
             h2{
                 padding-bottom: 26px;
-                font-size: 30px;
+                font-size: 32px;
                 color: #fbff00;
                 text-align: center;
             }
@@ -104,12 +140,37 @@
                 }
             }
         }
+
+        .contact{
+            display: block;
+            padding: 10px;
+            width: 240px;
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 20px;
+    
+            p{
+                color: #e2f2ff;
+                padding: 0px;
+                font-size: 22px;
+                text-align: center;
+                padding-bottom: 16px;
+                width: 160px;
+                margin: 0 auto;
+            }
+    
+            a{
+                padding: 8px 30px;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
     }
 }
 
 @media (min-width:768px) and (max-width:1023px) {
     .about{
-        height: 110vh;
+        height: 120vh;
     
         .container{
             width: 90%;
@@ -149,6 +210,10 @@
                     }
                 }
             }
+        }
+
+        .contact{
+            margin: 0 auto;
         }
     }
 }
