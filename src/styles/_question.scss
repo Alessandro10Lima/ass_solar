@@ -23,8 +23,11 @@
 
 @media (max-width:767px){
     .question{
+        background-image: url("../images/mobile.question.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
         .container{
-    
             h1{
                 font-size: 42px;
                 width: 80%;
