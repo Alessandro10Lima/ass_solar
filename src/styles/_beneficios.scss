@@ -23,7 +23,7 @@
 
                     li{
                         list-style: none;
-                        color: #fff353;
+                        color: #b8ff29;
                         font-size: 22px;
                         padding-bottom: 6px;
                     }
@@ -54,7 +54,7 @@
 
 @media (max-width:767px){
     .beneficios{
-        height: 164vw;
+        height: 176vw;
     
         .container{
             padding-top: 60px;
@@ -81,7 +81,7 @@
     
                         li{
                             list-style: none;
-                            color: #fff353;
+                            color: #b8ff29;
                             font-size: 20px;
                             padding-bottom: 28px;
                         }
@@ -111,7 +111,7 @@
 
 @media (min-width:768px) and (max-width:1023px) {
     .beneficios{
-        height: 92vh;
+        height: 100vh;
     
         .container{
             padding-top: 60px;
@@ -137,7 +137,7 @@
     
                         li{
                             list-style: none;
-                            color: #fff353;
+                            color: #b8ff29;
                             font-size: 24px;
                             padding-bottom: 14px;
                         }
@@ -155,7 +155,7 @@
             h1{
                 font-size: 36px;
                 color: aliceblue;
-                padding-bottom: 40px;
+                padding: 40px 0;
                 text-align: center;
                 margin: 0 10vw;
             }
