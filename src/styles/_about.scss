@@ -127,7 +127,7 @@
                     padding-bottom: 20px;
                     font-size: 20px;
                     align-items: center;
-                    display: flex;
+                    display: block;
                     color: #e0ffff;
                     text-align: center;
                     padding-right: 0;
@@ -135,7 +135,7 @@
     
                     img{
                         width: 40px;
-                        
+                        margin-right: 0;
                     }
                 }
             }

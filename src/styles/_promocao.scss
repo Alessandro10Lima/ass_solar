@@ -1,0 +1,155 @@
+.promocao{
+    background-image: url("../images/Capa.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 82vh;
+
+    .container{
+        margin: 0 auto;
+        text-align: center;
+
+        h1{
+            margin-top: 60px;
+            width: 500px;
+            padding: 20px 60px;
+            text-align: start;
+            font-size: 60px;
+            padding-bottom: 20px;
+            font-weight: bold;
+            background-color: #A0E613;
+            border: 1px solid #00ff0d;
+            color: #ffffff;
+            border-radius: 10px;
+        }
+        
+        h2{
+            display: none;
+            margin-top: 60px;
+            width: 90%;
+            padding: 10px;
+            font-size: 28px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 30px auto;
+            background-color: #A0E613;
+            border: 1px solid #00ff0d;
+            color: #ffffff;
+        }
+    }
+
+    li{
+        list-style: none;
+        
+        a{
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            max-width: 312px;
+            margin: 50px 166px;
+            text-decoration: none;
+            background-color: #ffffff;
+            color: #1d005c;
+            padding: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'roboto';
+            border-radius: 4px;
+            border: 1px solid #A0E613;
+            text-transform: uppercase;
+            
+            &:hover{
+                background-color: #A0E613;
+                border-color: #1d005c;
+                color: #ffffff;
+            }
+        }
+    
+        a.mobile{
+            display: none;
+            align-items: center;
+            letter-spacing: 1px;
+            max-width: 312px;
+            margin: 50px 166px;
+            text-decoration: none;
+            background-color: #ffffff;
+            color: #1d005c;
+            padding: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'roboto';
+            border-radius: 4px;
+            border: 1px solid #A0E613;
+            text-transform: uppercase;
+    
+            &:hover{
+                background-color: #A0E613;
+                border-color: #1d005c;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+@media (max-width:767px){
+    .promocao{
+        background-image: url("../images/Capa\ mobile.png");
+        background-size: cover;
+        background-repeat:no-repeat;
+        height: 58vh;
+    
+        .container{
+            width: 90%;
+
+            h1{
+                display: none;
+            }
+
+            h2{
+                display: block;
+            }
+        }
+
+        li{
+            a{
+                display: none;
+            }
+    
+            a.mobile{
+                display: block;
+                margin-top: 60px;
+                max-width: 60%;
+                padding: 10px;
+                font-size: 18px;
+                text-align: center;
+                border-radius: 10px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .promocao{
+        background-image: url("../images/Capa\ ipad.png");
+        background-size: cover;
+        background-repeat:no-repeat;
+        height: 67vh;
+    
+        .container{
+            width: 80%;
+    
+            h1{
+                margin: 50px auto;
+                text-align: center;
+                width: 70%;
+                font-size: 50px;
+            }
+        }
+
+        li{
+            a{
+                margin: 50px auto;
+            }
+        }
+    }
+}
